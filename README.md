@@ -5,7 +5,7 @@ Code for the paper:
 > **P-RP-PIL: A Novel Patch-Based Random Projection Pseudo-Inverse
 > Learning Framework for Automated Retinal Disease Detection in
 > Fundus Images**  
-> Mohammed A. B. Mahmoud, Arab Open University, Riyadh, KSA.
+
 
 This repository reproduces every table (I–VIII) and figure (1–6) in the main text, and provides full reproduction scripts for all supplementary tables (S1–S7) and figures (S1–S10). 
 
