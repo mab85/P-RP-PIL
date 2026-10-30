@@ -98,32 +98,39 @@ python latency.py                # Inference latency (DR)
 | Figure 1 - Architecture schematic | Provided in repo | `document(1).png` |
 | Figure 2 - Pap per-class comparison | `pap/per_class.py` | `papilledema_per_class_performance.png` |
 | Figure 3 - Pap confusion matrices | `pap/per_class.py` | `visualization_output/comparison_confusion_matrices.png` |
-| Figure 4 - DR per-class comparison | `dr/per_class.py` | `dr_per_class_performance.png` |
-| Figure 5 - DR confusion matrices | `dr/per_class.py` | `visualization_output/comparison_confusion_matrices_dr.png` |
+| Figure 4 - DR per-class comparison | `dr/visualizations.py` | `visualization_output_dr/per_class_performance_visualization.png` |
+| Figure 5 - DR confusion matrices | `dr/visualizations.py` | `visualization_output_dr/comparison_confusion_matrices_dr.png` |
 | Figure 6 - Pipeline schematic | `pap/visualizations.py` | `visualization_output/model_architecture.png` |
 
 ### Supplementary Tables & Figures (compiled in `supplementary/supplementary_material.pdf`)
 
 | Paper artifact | Script | Output file |
 |---|---|---|
-| Supp. Table S1 - L sweep | `pap/L_sweep.py` + `dr/L_sweep.py` | `supplementary_L_sweep_*.csv` |
-| Supp. Table S2 - Multi-seed | `pap/multi_seed.py` + `dr/multi_seed.py` | `multi_seed_summary_*.csv` |
-| Supp. Table S3 - Robustness | `pap/robustness.py` + `dr/robustness.py` | `robustness_*.csv` |
-| Supp. Table S4 - Pap patch sweep | `pap/patch_sweep.py` | `patch_stride_sweep_papilledema.csv` |
-| Supp. Table S5 - DR patch sweep | `dr/patch_sweep.py` | `patch_stride_sweep_dr.csv` |
-| Supp. Table S6 - DR ablation | `dr/ablation.py` | `r3c6_ablation_dr.csv` |
-| Supp. Table S7 - DR extended metrics | `dr/multi_seed.py` | `multi_seed_summary_dr.csv` |
-| Supp. Fig S1 - Pap precision-recall | `pap/roc_pr.py` | `precision_recall_curve1.png` |
-| Supp. Fig S2 - Pap ROC | `pap/roc_pr.py` | `roc_curve1.png` |
-| Supp. Fig S3 - DR precision-recall | `dr/roc_dr.py` | `precision_recall_curve.png` |
-| Supp. Fig S4 - DR ROC | `dr/roc_dr.py` | `roc_curve.png` |
+| Supp. Table S1 - L sweep | `pap/L_sweep.py` + `dr/L_sweep.py` | `Table_S1_L_sweep_*.csv` |
+| Supp. Table S2 - Multi-seed | `pap/multi_seed.py` + `dr/multi_seed.py` | `Table_S2_Multi_Seed_*.csv` |
+| Supp. Table S3 - Robustness | `pap/robustness.py` + `dr/robustness.py` | `Table_S3_Robustness_*.csv` |
+| Supp. Table S4 - Pap patch sweep | `pap/patch_sweep.py` | `Table_S4_Pap_Sweep.csv` |
+| Supp. Table S5 - DR patch sweep | `dr/patch_sweep.py` | `Table_S5_DR_Sweep.csv` |
+| Supp. Table S6 - DR ablation | `dr/ablation.py` | `Table_S6_DR_Ablation.csv` |
+| Supp. Table S7 - DR extended metrics | `dr/multi_seed.py` | `Table_S2_Multi_Seed_dr.csv` |
+| Supp. Fig S1 - Pap precision-recall | `pap/roc_pr.py` | `Figure_S1_Pap_PR.png` |
+| Supp. Fig S2 - Pap ROC | `pap/roc_pr.py` | `Figure_S2_Pap_ROC.png` |
+| Supp. Fig S3 - DR precision-recall | `dr/roc_pr.py` | `Figure_S3_DR_PR.png` |
+| Supp. Fig S4 - DR ROC | `dr/roc_pr.py` | `Figure_S4_DR_ROC.png` |
 | Supp. Fig S5 - Pap attention heatmap | `pap/visualizations.py` | `visualization_output/attention_heatmap_figure10.png` |
-| Supp. Fig S6 - DR attention heatmap | `dr/visualizations.py` | `visualization_output/attention_heatmap_dr.png` |
+| Supp. Fig S6 - DR attention heatmap | `dr/visualizations.py` | `visualization_output_dr/attention_heatmap_dr.png` |
 | Supp. Fig S7 - Pap training insights | `pap/visualizations.py` | `visualization_output/training_insights.png` |
-| Supp. Fig S8 - DR training insights | `dr/visualizations.py` | `visualization_output/training_insights_dr.png` |
-| Supp. Fig S9 - Pap component importance | `pap/visualizations.py` | `visualization_output/feature_importance.png` |
-| Supp. Fig S10 - DR component importance | `dr/visualizations.py` | `visualization_output/feature_importance_dr.png` |
+| Supp. Fig S8 - DR training insights | `dr/visualizations.py` | `visualization_output_dr/training_insights_dr.png` |
+| Supp. Fig S9 - Pap component importance | `pap/feature_importance.py` | `Figure_S9_Pap_Importance.png` |
+| Supp. Fig S10 - DR component importance | `dr/feature_importance.py` | `Figure_S10_DR_Importance.png` |
 
+### Auxiliary outputs (Section IV.A and Section IV.C)
+
+| Paper text | Script | Output |
+|---|---|---|
+| Section IV.A binary mimic analysis | `pap/mimic_differentiation.py` | printed to console |
+| Inference latency paragraph | `pap/latency.py`, `dr/latency.py` | printed to console |
+| DenseNet-121 latency comparison | `pap/latency.py` | printed to console |
 
 ## 6. Folder structure
 
