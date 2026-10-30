@@ -163,7 +163,6 @@ p-rp-pil/
 |   |-- feature_importance.py
 |   |-- latency.py
 |   |-- densenet_latency.py
-|   `-- baseline.py           <- reference only; per_class.py is preferred
 |-- dr/                       <- DR pipeline
 |   |-- data_loader.py        <- DR loader
 |   |-- prp_pil.py            <- P-RP-PIL model
