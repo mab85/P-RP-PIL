@@ -148,7 +148,8 @@ p-rp-pil/
 |       `-- test/{DR,No_DR}/
 |-- pap/                      <- Papilledema pipeline
 |   |-- data_loader.py        <- Papilledema loader
-|   |-- prp_pil.py            <- P-RP-PIL model 
+|   |-- prp_pil.py            <- P-RP-PIL model
+|   |-- main_comparison.py
 |   |-- per_class.py
 |   |-- mimic_differentiation.py
 |   |-- ablation.py
@@ -159,11 +160,14 @@ p-rp-pil/
 |   |-- patch_sweep.py
 |   |-- roc_pr.py
 |   |-- visualizations.py
+|   |-- feature_importance.py
 |   |-- latency.py
+|   |-- densenet_latency.py
 |   `-- baseline.py           <- reference only; per_class.py is preferred
 |-- dr/                       <- DR pipeline
 |   |-- data_loader.py        <- DR loader
-|   |-- prp_pil.py            <- P-RP-PIL model 
+|   |-- prp_pil.py            <- P-RP-PIL model
+|   |-- main_comparison.py
 |   |-- per_class.py
 |   |-- ablation.py
 |   |-- L_sweep.py
@@ -173,10 +177,9 @@ p-rp-pil/
 |   |-- patch_sweep.py
 |   |-- roc_pr.py
 |   |-- visualizations.py
+|   |-- feature_importance.py
 |   `-- latency.py
 `-- supplementary/            <- Supplementary Material
     |-- supplementary_material.pdf
-    
----
-
+    `-- (compiled figures and CSVs for S1-S10)
 
